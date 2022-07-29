@@ -5,10 +5,8 @@ sys.stdin = open("_암호문1.txt")
 #리스트를 좌우로 나눈 다음에 중간에 값을 더하고 합하는게 편할것 같다.
 def list_merge(list_,cut_,end_): #리스트, 컷할지점, 끝지점 - 나누어서 2개의 리스트로 반환한다 
     
-
     pass
     return
-
 
 for T in range(10): #전체 케이스수 10개
     N = int(input()) #원본 암호문의 길이
@@ -36,3 +34,5 @@ for T in range(10): #전체 케이스수 10개
         #order_2.get(i)[0] 몇번쨰부터 시작할까(인덱스 자리)
         #order_2.get(i)[1] 몇자리까지 갈까
         #order_2.get(i)[2~N_ord] 나머지 숫자
+
+#조작만 하면 될거 같은데 ...일단 제출

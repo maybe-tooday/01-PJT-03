@@ -3,10 +3,10 @@ import sys
 sys.stdin = open("_신용카드만들기2.txt")
 
 T = int(input())
-# 15자리 숫자를 줌, 마지막숫자N을 구해라
+
 for i in range(1,T+1):
     number = input()
-    number = number.replace('-','')
+    number = number.replace('-','') #'-'잘라서 붙여줘-> '-'잘라서 ''을 넣어줘
     #print(a)
     number_cnt = 16
     result_ = 0
